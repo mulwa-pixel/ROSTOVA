@@ -1,12 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import TradingPanel from '@/components/trading-panel';
-import DigitHeatmap from '@/components/digit-heatmap';
-import ActiveContracts from '@/components/active-contracts';
-import BotBuilder from '@/components/bot-builder';
-import MultiChart from '@/components/multi-chart';
-import SmartSignalCard from '@/components/smart-signal';
+import TradingPanel from '../components/trading-panel';
+import DigitHeatmap from '../components/digit-heatmap';
+import ActiveContracts from '../components/active-contracts';
+import BotBuilder from '../components/bot-builder';
+import MultiChart from '../components/multi-chart';
+import SmartSignalCard from '../components/smart-signal';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('trading');
