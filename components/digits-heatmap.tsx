@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { AnalyticsEngine } from '@/lib/analytics';
-import { DigitAnalytics } from '@/lib/types';
+import { AnalyticsEngine } from '../lib/analytics';
+import { DigitAnalytics } from '../lib/types';
 
 export default function DigitHeatmap({ symbol }: { symbol: string }) {
   const [data, setData] = useState<DigitAnalytics | null>(null);

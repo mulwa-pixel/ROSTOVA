@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useTradingStore } from '@/store/trading-store';
+import { useTradingStore } from '../store/trading-store';
 
 export default function TradingPanel({ symbol }: { symbol: string }) {
   const [stake, setStake] = useState(1);

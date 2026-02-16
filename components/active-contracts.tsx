@@ -1,6 +1,6 @@
 'use client';
 
-import { useTradingStore } from '@/store/trading-store';
+import { useTradingStore } from '../store/trading-store';
 
 export default function ActiveContracts() {
   const { activeContracts } = useTradingStore();
