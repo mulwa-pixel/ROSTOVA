@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import DigitHeatmap from './components/digits-heatmap';
 import TradingPanel from '../components/trading-panel';
 import DigitHeatmap from '../components/digit-heatmap';
 import ActiveContracts from '../components/active-contracts';
